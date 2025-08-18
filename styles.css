@@ -1,6 +1,7 @@
 :root{
     --background-color1:#1F2937;
     --text-color1:#f9faf8;
+    --background-color2:#3882f6;
 }
 
 *{
@@ -13,23 +14,74 @@ body{
 }
 
 .header{
-    background-color: var(--background-color1);
+    background-color: var(--background-color1);    
+    display: flex;
+    justify-content: center;
+}
+
+.header-content{
+    box-sizing: content-box;
+    width: 800px;
     color:var(--text-color1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 16px;
-    margin: 0;
-    
 }
 
 .header-logo{
     font-size: 24px;
     font-weight: 800;
+    padding: 0 16px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
     gap: 16px;
+    padding: 0 16px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+    display: flex;
+    justify-content: center;
+}   
+
+.hero-content{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 64px 0;
+    
+}
+
+.hero-left, .hero-content img{
+    box-sizing: content-box;
+    max-width: 350px;
+    padding: 16px;
+    margin: 0;
+}
+
+.hero-left h1{
+    margin: 0;
+}
+
+.hero-content img{
+    height: auto;
+    flex-shrink: 3;
+}
+
+#sign-up-btn{
+    background-color: var(--background-color2);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: var(--text-color1);
 }
