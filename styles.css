@@ -214,3 +214,10 @@ li a{
     margin: 0;
     padding: 0;
 }
+
+.footer {
+    background-color: var(--background-color1);
+    color: var(--text-color1);
+    text-align: center;
+    padding: 16px;
+}
