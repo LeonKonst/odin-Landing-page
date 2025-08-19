@@ -151,3 +151,29 @@ li a{
     text-align: center;
     color: var(--background-color1);
 }
+
+.quote{
+    background-color:var(--text-color2);
+}
+
+.quote-container{
+    width:600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: var(--background-color1);
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.quoter{
+    margin-left: auto; 
+    padding: 0;
+}
